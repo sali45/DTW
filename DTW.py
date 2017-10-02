@@ -37,7 +37,7 @@ def dtw(s1, s2, w, dist):
 
 
 def __inputs(x, y, dist):
-    x = np.asanyarray(x, dtype='float')
+    x = np.asanyarray(x, dtype='float')  # convert x and y to np arrays
     y = np.asanyarray(y, dtype='float')
 
     if x.ndim == y.ndim > 1 and x.shape[1] != y.shape[1]:
@@ -57,8 +57,8 @@ def __inputs(x, y, dist):
 
 
 def __difference(a, b):
-    return abs(a - b)
+    return abs(a - b)  # difference in 1 dimension
 
 
 def __norm(p):
-    return lambda a, b: np.linalg.norm(a - b, p)
+    return lambda a, b: np.linalg.norm(a - b, p)  # p norm to calculate distance in higher dimensions
