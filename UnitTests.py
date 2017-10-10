@@ -20,3 +20,27 @@ def test_dtw_path(s1, s2):
 
 test_dtw_distance(x, y)
 test_dtw_path(x, y)
+
+x = np.array([1, 2, 3, 4, 5], dtype='float')
+y = np.array([2, 3, 4], dtype='float')
+
+test_dtw_distance(x, y)
+test_dtw_path(x, y)
+
+x = np.array([[1, 2, 3, 4, 5]], dtype='float')
+y = np.array([[2, 3, 4, 4, 6]], dtype='float')
+
+test_dtw_distance(x, y)
+test_dtw_path(x, y)
+
+
+def sliding_window(sequence, templates, threshold):
+    matches = {}
+    sliding_window_size = 2 #sec
+    step_size = 50 * (sliding_window_size / 4)
+    for i in range(len(sequence), step_size):
+        segment = sequence[i:i+step_size]
+        for template in templates:
+            dist = dtw(segment,template)[0]
+            if dist < threshold:
+                matches[segment] = template
