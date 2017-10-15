@@ -36,8 +36,8 @@ test_dtw_path(x, y)
 
 def sliding_window(sequence, templates, threshold):
     matches = {}
-    sliding_window_size = 2 #sec
-    step_size = 50 * (sliding_window_size / 4)
+    sliding_window_size = 1 #sec
+    step_size = 50 * (sliding_window_size / 4)  # 50 Hz, 25% overlap
     for i in range(len(sequence), step_size):
         segment = sequence[i:i+step_size]
         for template in templates:
