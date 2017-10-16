@@ -46,13 +46,11 @@ def generate_gesture_files(i):
 
     merge = pd.read_csv(final_user_study_path + "/P" + str(i) + "/DataCollection/data/merge.csv")
 
-    # gesture_data = [nod_gyro, nod_acc, swipe_right_gyro, swipe_right_acc, swipe_left_gyro, swipe_left_acc, whats_up_gyro, whats_up_acc] =\
-    #     itertools.chain([fill_gyro_and_acc_data(i, merge) for i in [nod_intervals, swipe_left_intervals,
-    #                                                             swipe_right_intervals, whats_up_intervals]])
     nod_gyro, nod_acc = fill_gyro_and_acc_data(nod_intervals, merge)
     swipe_right_gyro, swipe_right_acc = fill_gyro_and_acc_data(swipe_right_intervals, merge)
     swipe_left_gyro, swipe_left_acc = fill_gyro_and_acc_data(swipe_left_intervals, merge)
     whats_up_gyro, whats_up_acc = fill_gyro_and_acc_data(whats_up_intervals, merge)
+
     return nod_gyro, nod_acc, swipe_right_gyro, swipe_right_acc, swipe_left_gyro, swipe_right_acc, whats_up_gyro, whats_up_acc
 
 
@@ -75,5 +73,7 @@ def generate_gesture_all_files():
         swipe_lefts_acc.append(generate_gesture_files(i)[5])
         whats_ups_gyro.append(generate_gesture_files(i)[6])
         whats_ups_acc.append(generate_gesture_files(i)[7])
+    return [nods_gyro, nods_acc, swipe_rights_gyro, swipe_rights_acc, swipe_lefts_gyro, swipe_lefts_acc, whats_ups_gyro, \
+           whats_ups_acc]
 
-generate_gesture_all_files()
+print generate_gesture_all_files()[1]
