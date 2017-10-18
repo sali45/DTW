@@ -15,6 +15,7 @@ def generate_gesture_intervals(i):
     #  Convert log file to data frame
     file_name = final_user_study_path + "/P" + str(i) + "/DataCollection/logs/log.csv"
     log_df = pd.read_csv(file_name)
+    print log_df
 
     #  list of intervals for each gesture in a specific participant i
     swipe_right_intervals = []
@@ -24,10 +25,10 @@ def generate_gesture_intervals(i):
 
     #  filling in the interval lists for each gesture in a participant i
     for index, row in log_df.iterrows():
-        if row['gesture'] == 'Nod' and row['label'] == 'y': nod_intervals.append((float(row['start']), float(row['end'])))
-        elif row['gesture'] == 'Swipe Left' and row['label'] == 'y': swipe_left_intervals.append((float(row['start']), float(row['end'])))
-        elif row['gesture'] == 'Swipe Right' and row['label'] == 'y': swipe_right_intervals.append((float(row['start']), float(row['end'])))
-        elif row['gesture'] == 'Whats Up' and row['label'] == 'y': whats_up_intervals.append((float(row['start']), float(row['end'])))
+        if row['gesture'] == 'Nod' and row['label'] == 'y': nod_intervals.append((int(row['start']), int(row['end'])))
+        elif row['gesture'] == 'Swipe Left' and row['label'] == 'y': swipe_left_intervals.append((int(row['start']), int(row['end'])))
+        elif row['gesture'] == 'Swipe Right' and row['label'] == 'y': swipe_right_intervals.append((int(row['start']), int(row['end'])))
+        elif row['gesture'] == 'Whats Up' and row['label'] == 'y': whats_up_intervals.append((int(row['start']), int(row['end'])))
     return nod_intervals, swipe_left_intervals, swipe_left_intervals, whats_up_intervals
 
 
@@ -79,5 +80,4 @@ def convert_gesture_lists_to_files(i):
             writer = csv.writer(f)
             writer.writerows(list(chain.from_iterable(sensor_data[j])))
 
-for i in range(2, 12):
-    convert_gesture_lists_to_files(i)
+convert_gesture_lists_to_files(4)
