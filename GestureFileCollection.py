@@ -1,30 +1,45 @@
 import pandas as pd
 import numpy as np
-import itertools
+import csv
+from itertools import chain
 
 final_user_study_path = "/Users/saqibali/PycharmProjects/DTW/FinalUserStudy"
 
+
 def generate_gesture_intervals(i):
     """
-
-    :return:
+    Creates tuples of start and end time stamps for each gesture in a participant i
+    :return: List[List(int, int)] where each inner list is a list of intervals
     """
-    log_df = pd.read_csv(final_user_study_path + "/P" + str(i) + "/DataCollection/logs/log.csv")
 
-    nod_intervals = []
+    #  Convert log file to data frame
+    file_name = final_user_study_path + "/P" + str(i) + "/DataCollection/logs/log.csv"
+    log_df = pd.read_csv(file_name)
+
+    #  list of intervals for each gesture in a specific participant i
     swipe_right_intervals = []
     swipe_left_intervals = []
     whats_up_intervals = []
+    nod_intervals = []
 
+    #  filling in the interval lists for each gesture in a participant i
     for index, row in log_df.iterrows():
-        if row['gesture'] == 'Nod' and row['label'] == 'y': nod_intervals.append((row['start'], row['end']))
-        elif row['gesture'] == 'Swipe Left' and row['label'] == 'y': swipe_left_intervals.append((row['start'], row['end']))
-        elif row['gesture'] == 'Swipe Right' and row['label'] == 'y': swipe_right_intervals.append((row['start'], row['end']))
-        elif row['gesture'] == 'Whats Up' and row['label'] == 'y': whats_up_intervals.append((row['start'], row['end']))
+        if row['gesture'] == 'Nod' and row['label'] == 'y': nod_intervals.append((float(row['start']), float(row['end'])))
+        elif row['gesture'] == 'Swipe Left' and row['label'] == 'y': swipe_left_intervals.append((float(row['start']), float(row['end'])))
+        elif row['gesture'] == 'Swipe Right' and row['label'] == 'y': swipe_right_intervals.append((float(row['start']), float(row['end'])))
+        elif row['gesture'] == 'Whats Up' and row['label'] == 'y': whats_up_intervals.append((float(row['start']), float(row['end'])))
     return nod_intervals, swipe_left_intervals, swipe_left_intervals, whats_up_intervals
 
 
 def fill_gyro_and_acc_data(interval, merge):
+    """
+
+    :param interval: interval for a specific gesture
+    :param merge: merge data frame with 2 hours of gesture sensor data
+    :return: List[List[int]] of each class of gestures' sensor data for each participant
+    """
+
+    #  Outer gesture sensor list for all instances of that gesture
     gesture_gyro = []
     gesture_acc = []
     for i in interval:
@@ -41,7 +56,7 @@ def fill_gyro_and_acc_data(interval, merge):
     return [gesture_gyro, gesture_acc]
 
 
-def generate_gesture_files(i):
+def generate_gesture_lists(i):
     nod_intervals, swipe_left_intervals, swipe_right_intervals, whats_up_intervals = generate_gesture_intervals(i)
 
     merge = pd.read_csv(final_user_study_path + "/P" + str(i) + "/DataCollection/data/merge.csv")
@@ -54,26 +69,15 @@ def generate_gesture_files(i):
     return nod_gyro, nod_acc, swipe_right_gyro, swipe_right_acc, swipe_left_gyro, swipe_right_acc, whats_up_gyro, whats_up_acc
 
 
-def generate_gesture_all_files():
-    nods_gyro = []
-    swipe_rights_gyro = []
-    swipe_lefts_gyro = []
-    whats_ups_gyro = []
+def convert_gesture_lists_to_files(i):
+    sensor_data = generate_gesture_lists(i)
+    names = ['nod_gyro', 'nod_acc', 'swipe_right_gyro', 'swipe_right_acc', 'swipe_left_gyro', 'swipe_right_acc',
+             'whats_up_gyro', 'whats_up_acc']
+    assert(len(sensor_data) == len(names))
+    for j in range(len(sensor_data)):
+        with open(names[j] + "P" + str(i) + ".csv", "wb") as f:
+            writer = csv.writer(f)
+            writer.writerows(list(chain.from_iterable(sensor_data[j])))
 
-    nods_acc = []
-    swipe_rights_acc = []
-    swipe_lefts_acc = []
-    whats_ups_acc = []
-    for i in range(2, 12):
-        nods_gyro.append(generate_gesture_files(i)[0])
-        nods_acc.append(generate_gesture_files(i)[1])
-        swipe_rights_gyro.append(generate_gesture_files(i)[2])
-        swipe_rights_acc.append(generate_gesture_files(i)[3])
-        swipe_lefts_gyro.append(generate_gesture_files(i)[4])
-        swipe_lefts_acc.append(generate_gesture_files(i)[5])
-        whats_ups_gyro.append(generate_gesture_files(i)[6])
-        whats_ups_acc.append(generate_gesture_files(i)[7])
-    return [nods_gyro, nods_acc, swipe_rights_gyro, swipe_rights_acc, swipe_lefts_gyro, swipe_lefts_acc, whats_ups_gyro, \
-           whats_ups_acc]
-
-print generate_gesture_all_files()[1]
+for i in range(2, 12):
+    convert_gesture_lists_to_files(i)
