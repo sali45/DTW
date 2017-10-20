@@ -15,7 +15,6 @@ def generate_gesture_intervals(i):
     #  Convert log file to data frame
     file_name = final_user_study_path + "/P" + str(i) + "/DataCollection/logs/log.csv"
     log_df = pd.read_csv(file_name)
-    print log_df
 
     #  list of intervals for each gesture in a specific participant i
     swipe_right_intervals = []
@@ -78,6 +77,8 @@ def convert_gesture_lists_to_files(i):
     for j in range(len(sensor_data)):
         with open(names[j] + "P" + str(i) + ".csv", "wb") as f:
             writer = csv.writer(f)
+            writer.writerow(['x', 'y', 'z'])
             writer.writerows(list(chain.from_iterable(sensor_data[j])))
 
-convert_gesture_lists_to_files(4)
+for i in range(2, 12):
+    convert_gesture_lists_to_files(i)

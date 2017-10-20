@@ -2,7 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37f56b3b-e57e-46b7-b499-a87ca7288262" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GestureFileCollection.py" afterPath="$PROJECT_DIR$/GestureFileCollection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP10.csv" afterPath="$PROJECT_DIR$/nod_accP10.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP11.csv" afterPath="$PROJECT_DIR$/nod_accP11.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP2.csv" afterPath="$PROJECT_DIR$/nod_accP2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP3.csv" afterPath="$PROJECT_DIR$/nod_accP3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP4.csv" afterPath="$PROJECT_DIR$/nod_accP4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP5.csv" afterPath="$PROJECT_DIR$/nod_accP5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP6.csv" afterPath="$PROJECT_DIR$/nod_accP6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP7.csv" afterPath="$PROJECT_DIR$/nod_accP7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP8.csv" afterPath="$PROJECT_DIR$/nod_accP8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP9.csv" afterPath="$PROJECT_DIR$/nod_accP9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP10.csv" afterPath="$PROJECT_DIR$/nod_gyroP10.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP11.csv" afterPath="$PROJECT_DIR$/nod_gyroP11.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP2.csv" afterPath="$PROJECT_DIR$/nod_gyroP2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP3.csv" afterPath="$PROJECT_DIR$/nod_gyroP3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP4.csv" afterPath="$PROJECT_DIR$/nod_gyroP4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP5.csv" afterPath="$PROJECT_DIR$/nod_gyroP5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP6.csv" afterPath="$PROJECT_DIR$/nod_gyroP6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP7.csv" afterPath="$PROJECT_DIR$/nod_gyroP7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP8.csv" afterPath="$PROJECT_DIR$/nod_gyroP8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP9.csv" afterPath="$PROJECT_DIR$/nod_gyroP9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP10.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP10.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP11.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP11.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP2.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP3.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP4.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP5.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP6.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP7.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP8.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP9.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP10.csv" afterPath="$PROJECT_DIR$/swipe_right_accP10.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP11.csv" afterPath="$PROJECT_DIR$/swipe_right_accP11.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP2.csv" afterPath="$PROJECT_DIR$/swipe_right_accP2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP3.csv" afterPath="$PROJECT_DIR$/swipe_right_accP3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP4.csv" afterPath="$PROJECT_DIR$/swipe_right_accP4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP5.csv" afterPath="$PROJECT_DIR$/swipe_right_accP5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP6.csv" afterPath="$PROJECT_DIR$/swipe_right_accP6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP7.csv" afterPath="$PROJECT_DIR$/swipe_right_accP7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP8.csv" afterPath="$PROJECT_DIR$/swipe_right_accP8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP9.csv" afterPath="$PROJECT_DIR$/swipe_right_accP9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP10.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP10.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP11.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP11.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP2.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP3.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP4.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP5.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP6.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP7.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP8.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP9.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP10.csv" afterPath="$PROJECT_DIR$/whats_up_accP10.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP11.csv" afterPath="$PROJECT_DIR$/whats_up_accP11.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP2.csv" afterPath="$PROJECT_DIR$/whats_up_accP2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP3.csv" afterPath="$PROJECT_DIR$/whats_up_accP3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP4.csv" afterPath="$PROJECT_DIR$/whats_up_accP4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP5.csv" afterPath="$PROJECT_DIR$/whats_up_accP5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP6.csv" afterPath="$PROJECT_DIR$/whats_up_accP6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP7.csv" afterPath="$PROJECT_DIR$/whats_up_accP7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP8.csv" afterPath="$PROJECT_DIR$/whats_up_accP8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP9.csv" afterPath="$PROJECT_DIR$/whats_up_accP9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP10.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP10.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP11.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP11.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP2.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP3.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP4.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP5.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP6.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP7.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP8.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP9.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP9.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +83,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GestureFileCollection.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GestureFileCollection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-163">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,14 +124,14 @@
         <option value="$PROJECT_DIR$/UnitTests.py" />
         <option value="$PROJECT_DIR$/FinalUserStudy/P2/DataCollection/logs/log.csv" />
         <option value="$PROJECT_DIR$/FinalUserStudy/P3/DataCollection/logs/log.csv" />
-        <option value="$PROJECT_DIR$/FinalUserStudy/P4/DataCollection/logs/log.csv" />
         <option value="$PROJECT_DIR$/FinalUserStudy/P5/DataCollection/logs/log.csv" />
         <option value="$PROJECT_DIR$/FinalUserStudy/P6/DataCollection/logs/log.csv" />
         <option value="$PROJECT_DIR$/FinalUserStudy/P7/DataCollection/logs/log.csv" />
-        <option value="$PROJECT_DIR$/FinalUserStudy/P8/DataCollection/logs/log.csv" />
-        <option value="$PROJECT_DIR$/FinalUserStudy/P9/DataCollection/logs/log.csv" />
         <option value="$PROJECT_DIR$/FinalUserStudy/P10/DataCollection/logs/log.csv" />
         <option value="$PROJECT_DIR$/FinalUserStudy/P11/DataCollection/logs/log.csv" />
+        <option value="$PROJECT_DIR$/FinalUserStudy/P9/DataCollection/logs/log.csv" />
+        <option value="$PROJECT_DIR$/FinalUserStudy/P8/DataCollection/logs/log.csv" />
+        <option value="$PROJECT_DIR$/FinalUserStudy/P4/DataCollection/logs/log.csv" />
         <option value="$PROJECT_DIR$/GestureFileCollection.py" />
       </list>
     </option>
@@ -236,8 +320,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22294022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22294022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -256,6 +341,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22294022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -267,59 +372,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FinalUserStudy/P11/DataCollection/logs/log.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalUserStudy/P4/DataCollection/data/merge.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="954" column="0" lean-forward="false" selection-start-line="954" selection-start-column="0" selection-end-line="954" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DTW.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/pandas/core/indexing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="1637" column="0" lean-forward="false" selection-start-line="1637" selection-start-column="0" selection-end-line="1637" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalUserStudy/P2/DataCollection/data/2017-05-01T13-40-19.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36576">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP1.csv" />
-    <entry file="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages/numpy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swipe_left_gyroP9.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_left_gyroP10.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -335,10 +396,274 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FinalUserStudy/P8/DataCollection/logs/log.csv">
+    <entry file="file://$PROJECT_DIR$/swipe_right_accP2.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_accP3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_accP4.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_accP5.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_accP6.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_accP7.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_accP8.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_accP10.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_accP9.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_accP11.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP4.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP5.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP6.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP7.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP8.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP9.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP10.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP11.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_accP2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_accP3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_accP4.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_accP5.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_accP6.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_accP7.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_accP8.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_accP9.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_accP11.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_accP10.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_gyroP2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_gyroP3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_gyroP9.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_gyroP8.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -359,7 +684,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP2.csv">
+    <entry file="file://$PROJECT_DIR$/whats_up_gyroP5.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -367,205 +692,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nod_gyroP7.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP5.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_gyroP6.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP11.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_gyroP5.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_gyroP4.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_gyroP2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP7.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_gyroP8.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_left_gyroP3.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP6.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_accP11.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP3.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_gyroP3.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalUserStudy/P3/DataCollection/data/merge.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP4.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP3.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP8.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalUserStudy/P3/DataCollection/logs/log.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP5.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP8.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalUserStudy/P9/DataCollection/data/merge.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="135">
-          <caret line="2483" column="14" lean-forward="false" selection-start-line="2483" selection-start-column="13" selection-end-line="2483" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_gyroP9.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP11.csv">
+    <entry file="file://$PROJECT_DIR$/whats_up_gyroP4.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -581,7 +708,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP8.csv">
+    <entry file="file://$PROJECT_DIR$/whats_up_gyroP11.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -589,7 +716,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP5.csv">
+    <entry file="file://$PROJECT_DIR$/swipe_left_gyroP5.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -597,7 +724,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP9.csv">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nod_accP6.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -605,7 +740,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP10.csv">
+    <entry file="file://$PROJECT_DIR$/nod_accP5.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -613,7 +748,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP9.csv">
+    <entry file="file://$PROJECT_DIR$/nod_accP3.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -621,7 +756,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP9.csv">
+    <entry file="file://$PROJECT_DIR$/nod_accP2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nod_accP4.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -631,34 +774,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GestureFileCollection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="81" column="33" lean-forward="false" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+        <state relative-caret-position="-163">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalUserStudy/P9/DataCollection/logs/log.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalUserStudy/P2/DataCollection/data/merge.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="135">
-          <caret line="21800" column="25" lean-forward="false" selection-start-line="21800" selection-start-column="19" selection-end-line="21800" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalUserStudy/P2/DataCollection/logs/log.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
