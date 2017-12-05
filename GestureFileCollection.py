@@ -33,7 +33,6 @@ def generate_gesture_intervals(i):
 
 def fill_gyro_and_acc_data(interval, merge):
     """
-
     :param interval: interval for a specific gesture
     :param merge: merge data frame with 2 hours of gesture sensor data
     :return: List[List[int]] of each class of gestures' sensor data for each participant
@@ -79,6 +78,7 @@ def convert_gesture_lists_to_files(i):
             writer = csv.writer(f)
             writer.writerow(['x', 'y', 'z'])
             writer.writerows(list(chain.from_iterable(sensor_data[j])))
+
 
 for i in range(2, 12):
     convert_gesture_lists_to_files(i)

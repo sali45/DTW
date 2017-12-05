@@ -2,78 +2,761 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37f56b3b-e57e-46b7-b499-a87ca7288262" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cross_validation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DTW_KNN_With_Libraries.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_0_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_0_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_0_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_0_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_0_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_0_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_0_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_0_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_0_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_0_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_10_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_10_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_10_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_11_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_1_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_1_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_1_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_1_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_1_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_1_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_1_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_1_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_1_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_1_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_2_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_2_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_2_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_2_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_2_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_2_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_2_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_2_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_2_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_2_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_3_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_3_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_3_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_3_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_3_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_3_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_3_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_3_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_3_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_3_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_4_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_4_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_4_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_4_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_4_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_4_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_4_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_4_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_4_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_4_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_5_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_5_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_5_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_5_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_5_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_5_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_5_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_5_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_5_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_6_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_6_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_6_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_6_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_6_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_6_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_6_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_6_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_6_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_7_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_7_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_7_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_7_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_7_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_7_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_7_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_7_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_7_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_8_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_8_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_8_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_8_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_8_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_8_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_8_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_8_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_9_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_9_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_9_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_9_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_9_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_9_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_9_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_0_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_0_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_0_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_0_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_0_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_0_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_0_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_0_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_0_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_0_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_10_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_10_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_10_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_11_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_1_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_1_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_1_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_1_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_1_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_1_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_1_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_1_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_1_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_1_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_2_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_2_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_2_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_2_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_2_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_2_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_2_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_2_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_2_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_2_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_3_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_3_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_3_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_3_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_3_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_3_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_3_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_3_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_3_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_3_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_4_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_4_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_4_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_4_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_4_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_4_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_4_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_4_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_4_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_4_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_5_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_5_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_5_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_5_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_5_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_5_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_5_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_5_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_5_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_6_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_6_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_6_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_6_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_6_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_6_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_6_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_6_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_6_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_7_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_7_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_7_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_7_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_7_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_7_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_7_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_7_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_7_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_8_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_8_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_8_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_8_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_8_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_8_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_8_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_8_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_9_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_9_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_9_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_9_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_9_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_9_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_9_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_0_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_0_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_0_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_0_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_0_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_0_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_0_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_0_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_0_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_0_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_10_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_10_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_10_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_10_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_10_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_10_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_11_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_11_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_11_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_11_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_1_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_1_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_1_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_1_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_1_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_1_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_1_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_1_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_1_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_1_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_2_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_2_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_2_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_2_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_2_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_2_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_2_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_2_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_2_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_2_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_3_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_3_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_3_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_3_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_3_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_3_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_3_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_3_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_3_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_3_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_4_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_4_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_4_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_4_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_4_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_4_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_4_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_4_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_4_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_4_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_5_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_5_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_5_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_5_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_5_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_5_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_5_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_5_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_5_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_5_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_6_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_6_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_6_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_6_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_6_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_6_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_6_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_6_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_6_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_7_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_7_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_7_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_7_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_7_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_7_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_7_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_7_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_8_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_8_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_8_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_8_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_8_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_8_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_9_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_9_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_9_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_9_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_9_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_9_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_0_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_0_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_0_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_0_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_0_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_0_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_0_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_0_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_0_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_0_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_10_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_10_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_10_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_10_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_10_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_10_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_11_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_11_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_11_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_11_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_1_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_1_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_1_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_1_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_1_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_1_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_1_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_1_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_1_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_1_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_2_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_2_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_2_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_2_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_2_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_2_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_2_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_2_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_2_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_2_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_3_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_3_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_3_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_3_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_3_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_3_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_3_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_3_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_3_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_3_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_4_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_4_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_4_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_4_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_4_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_4_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_4_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_4_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_4_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_4_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_5_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_5_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_5_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_5_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_5_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_5_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_5_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_5_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_5_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_5_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_6_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_6_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_6_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_6_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_6_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_6_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_6_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_6_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_6_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_7_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_7_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_7_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_7_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_7_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_7_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_7_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_7_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_8_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_8_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_8_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_8_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_8_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_8_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_9_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_9_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_9_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_9_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_9_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_9_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_0_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_0_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_0_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_0_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_0_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_0_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_0_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_0_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_0_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_10_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_10_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_10_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_10_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_10_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_10_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_11_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_11_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_11_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_11_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_1_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_1_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_1_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_1_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_1_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_1_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_1_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_1_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_1_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_1_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_2_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_2_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_2_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_2_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_2_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_2_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_2_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_2_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_2_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_2_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_3_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_3_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_3_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_3_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_3_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_3_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_3_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_3_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_3_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_3_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_4_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_4_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_4_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_4_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_4_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_4_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_4_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_4_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_4_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_4_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_5_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_5_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_5_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_5_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_5_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_5_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_5_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_5_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_5_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_5_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_6_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_6_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_6_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_6_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_6_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_6_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_6_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_6_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_6_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_7_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_7_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_7_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_7_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_7_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_7_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_7_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_7_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_8_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_8_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_8_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_8_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_8_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_8_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_9_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_9_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_9_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_9_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_9_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_9_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_0_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_0_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_0_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_0_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_0_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_0_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_0_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_0_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_0_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_0_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_10_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_10_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_10_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_10_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_10_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_11_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_11_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_11_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_1_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_1_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_1_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_1_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_1_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_1_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_1_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_1_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_1_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_1_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_2_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_2_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_2_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_2_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_2_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_2_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_2_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_2_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_2_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_3_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_3_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_3_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_3_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_3_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_3_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_3_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_3_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_3_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_4_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_4_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_4_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_4_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_4_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_4_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_4_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_4_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_4_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_5_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_5_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_5_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_5_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_5_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_5_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_5_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_5_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_5_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_6_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_6_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_6_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_6_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_6_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_6_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_6_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_6_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_6_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_7_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_7_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_7_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_7_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_7_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_7_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_7_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_7_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_7_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_8_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_8_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_8_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_8_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_8_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_8_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_8_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_9_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_9_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_9_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_9_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_9_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_9_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_0_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_0_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_0_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_0_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_0_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_0_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_0_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_0_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_0_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_0_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_10_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_10_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_10_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_10_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_10_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_11_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_11_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_11_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_1_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_1_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_1_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_1_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_1_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_1_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_1_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_1_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_1_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_1_P_9.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_2_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_2_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_2_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_2_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_2_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_2_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_2_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_2_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_2_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_3_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_3_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_3_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_3_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_3_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_3_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_3_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_3_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_3_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_4_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_4_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_4_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_4_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_4_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_4_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_4_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_4_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_4_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_5_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_5_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_5_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_5_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_5_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_5_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_5_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_5_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_5_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_6_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_6_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_6_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_6_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_6_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_6_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_6_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_6_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_6_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_7_P_10.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_7_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_7_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_7_P_3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_7_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_7_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_7_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_7_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_7_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_8_P_11.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_8_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_8_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_8_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_8_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_8_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_8_P_8.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_9_P_2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_9_P_4.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_9_P_5.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_9_P_6.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_9_P_7.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_9_P_8.csv" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DTW.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_accP10.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_accP11.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_accP2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_accP3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_accP4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_accP5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_accP6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_accP7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_accP8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_accP9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_gyroP10.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_gyroP11.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_gyroP2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_gyroP3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_gyroP4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_gyroP5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_gyroP6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_gyroP7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_gyroP8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nod_gyroP9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_left_gyroP10.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_left_gyroP11.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_left_gyroP2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_left_gyroP3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_left_gyroP4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_left_gyroP5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_left_gyroP6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_left_gyroP7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_left_gyroP8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_left_gyroP9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_accP10.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_accP11.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_accP2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_accP3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_accP4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_accP5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_accP6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_accP7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_accP8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_accP9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_gyroP10.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_gyroP11.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_gyroP2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_gyroP3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_gyroP4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_gyroP5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_gyroP6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_gyroP7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_gyroP8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe_right_gyroP9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_accP10.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_accP11.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_accP2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_accP3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_accP4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_accP5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_accP6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_accP7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_accP8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_accP9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_gyroP10.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_gyroP11.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_gyroP2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_gyroP3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_gyroP4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_gyroP5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_gyroP6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_gyroP7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_gyroP8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/whats_up_gyroP9.csv" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/DTW.iml" afterPath="$PROJECT_DIR$/.idea/MagicTheGathering.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GestureFileCollection.py" afterPath="$PROJECT_DIR$/GestureFileCollection.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP10.csv" afterPath="$PROJECT_DIR$/nod_accP10.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP11.csv" afterPath="$PROJECT_DIR$/nod_accP11.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP2.csv" afterPath="$PROJECT_DIR$/nod_accP2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP3.csv" afterPath="$PROJECT_DIR$/nod_accP3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP4.csv" afterPath="$PROJECT_DIR$/nod_accP4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP5.csv" afterPath="$PROJECT_DIR$/nod_accP5.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP6.csv" afterPath="$PROJECT_DIR$/nod_accP6.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP7.csv" afterPath="$PROJECT_DIR$/nod_accP7.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP8.csv" afterPath="$PROJECT_DIR$/nod_accP8.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_accP9.csv" afterPath="$PROJECT_DIR$/nod_accP9.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP10.csv" afterPath="$PROJECT_DIR$/nod_gyroP10.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP11.csv" afterPath="$PROJECT_DIR$/nod_gyroP11.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP2.csv" afterPath="$PROJECT_DIR$/nod_gyroP2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP3.csv" afterPath="$PROJECT_DIR$/nod_gyroP3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP4.csv" afterPath="$PROJECT_DIR$/nod_gyroP4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP5.csv" afterPath="$PROJECT_DIR$/nod_gyroP5.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP6.csv" afterPath="$PROJECT_DIR$/nod_gyroP6.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP7.csv" afterPath="$PROJECT_DIR$/nod_gyroP7.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP8.csv" afterPath="$PROJECT_DIR$/nod_gyroP8.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nod_gyroP9.csv" afterPath="$PROJECT_DIR$/nod_gyroP9.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP10.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP10.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP11.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP11.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP2.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP3.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP4.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP5.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP5.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP6.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP6.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP7.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP7.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP8.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP8.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_left_gyroP9.csv" afterPath="$PROJECT_DIR$/swipe_left_gyroP9.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP10.csv" afterPath="$PROJECT_DIR$/swipe_right_accP10.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP11.csv" afterPath="$PROJECT_DIR$/swipe_right_accP11.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP2.csv" afterPath="$PROJECT_DIR$/swipe_right_accP2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP3.csv" afterPath="$PROJECT_DIR$/swipe_right_accP3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP4.csv" afterPath="$PROJECT_DIR$/swipe_right_accP4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP5.csv" afterPath="$PROJECT_DIR$/swipe_right_accP5.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP6.csv" afterPath="$PROJECT_DIR$/swipe_right_accP6.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP7.csv" afterPath="$PROJECT_DIR$/swipe_right_accP7.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP8.csv" afterPath="$PROJECT_DIR$/swipe_right_accP8.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_accP9.csv" afterPath="$PROJECT_DIR$/swipe_right_accP9.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP10.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP10.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP11.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP11.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP2.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP3.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP4.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP5.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP5.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP6.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP6.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP7.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP7.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP8.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP8.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipe_right_gyroP9.csv" afterPath="$PROJECT_DIR$/swipe_right_gyroP9.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP10.csv" afterPath="$PROJECT_DIR$/whats_up_accP10.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP11.csv" afterPath="$PROJECT_DIR$/whats_up_accP11.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP2.csv" afterPath="$PROJECT_DIR$/whats_up_accP2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP3.csv" afterPath="$PROJECT_DIR$/whats_up_accP3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP4.csv" afterPath="$PROJECT_DIR$/whats_up_accP4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP5.csv" afterPath="$PROJECT_DIR$/whats_up_accP5.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP6.csv" afterPath="$PROJECT_DIR$/whats_up_accP6.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP7.csv" afterPath="$PROJECT_DIR$/whats_up_accP7.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP8.csv" afterPath="$PROJECT_DIR$/whats_up_accP8.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_accP9.csv" afterPath="$PROJECT_DIR$/whats_up_accP9.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP10.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP10.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP11.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP11.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP2.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP3.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP4.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP5.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP5.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP6.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP6.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP7.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP7.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP8.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP8.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_up_gyroP9.csv" afterPath="$PROJECT_DIR$/whats_up_gyroP9.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,16 +765,91 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MagicTheGathering" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GestureFileCollection.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GestureFileCollection.py">
+      <file leaf-file-name="Cross_validation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cross_validation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-163">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="201">
+              <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nod_gyro_instance_0_P_2.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_0_P_2.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DTW_KNN_With_Libraries.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DTW_KNN_With_Libraries.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="238" column="76" lean-forward="false" selection-start-line="238" selection-start-column="76" selection-end-line="238" selection-end-column="76" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swipe_left_gyro_instance_0_P_2.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_0_P_2.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swipe_right_acc_instance_0_P_2.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_0_P_2.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swipe_right_gyro_instance_0_P_3.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_0_P_3.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="whats_up_acc_instance_0_P_2.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_0_P_2.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="whats_up_gyro_instance_0_P_2.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_0_P_2.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,6 +868,8 @@
       <find>-0.6987</find>
       <find>711071</find>
       <find>700072</find>
+      <find>merge</find>
+      <find>merge</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,7 +880,6 @@
       <list>
         <option value="$PROJECT_DIR$/../ML4T_2017Fall/assess_portfolio/util.py" />
         <option value="$PROJECT_DIR$/../ML4T_2017Fall/assess_portfolio/analysis.py" />
-        <option value="$PROJECT_DIR$/DTW.py" />
         <option value="$PROJECT_DIR$/UnitTests.py" />
         <option value="$PROJECT_DIR$/FinalUserStudy/P2/DataCollection/logs/log.csv" />
         <option value="$PROJECT_DIR$/FinalUserStudy/P3/DataCollection/logs/log.csv" />
@@ -132,13 +891,20 @@
         <option value="$PROJECT_DIR$/FinalUserStudy/P9/DataCollection/logs/log.csv" />
         <option value="$PROJECT_DIR$/FinalUserStudy/P8/DataCollection/logs/log.csv" />
         <option value="$PROJECT_DIR$/FinalUserStudy/P4/DataCollection/logs/log.csv" />
+        <option value="$PROJECT_DIR$/DTW.py" />
+        <option value="$PROJECT_DIR$/FinalUserStudy/DTW_KNN_With_Libraries.py" />
+        <option value="$PROJECT_DIR$/AnandsImplementation.java" />
         <option value="$PROJECT_DIR$/GestureFileCollection.py" />
+        <option value="$PROJECT_DIR$/TrainingAndTestingData.py" />
+        <option value="$PROJECT_DIR$/Cross_validation.py" />
+        <option value="$PROJECT_DIR$/DTW_KNN_With_Libraries.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -157,23 +923,23 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DTW" type="462c0819:PsiDirectoryNode" />
+              <item name="MagicTheGathering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagicTheGathering" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DTW" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalUserStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="MagicTheGathering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagicTheGathering" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,7 +950,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/FinalUserStudy/P2/DataCollection" />
+      <recent name="$PROJECT_DIR$/Data/WhatsUp/Gyro" />
+      <recent name="$PROJECT_DIR$/Data/WhatsUp/Accelerometer" />
+      <recent name="$PROJECT_DIR$/Data/SwipeRight/Gyro" />
+      <recent name="$PROJECT_DIR$/Data/SwipeRight/Accelerometer" />
+      <recent name="$PROJECT_DIR$/Data/SwipeLeft/Gyro" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Data/WhatsUp/Train" />
+      <recent name="$PROJECT_DIR$/Data/WhatsUp/Test" />
+      <recent name="$PROJECT_DIR$/Data/SwipeRight/Train" />
+      <recent name="$PROJECT_DIR$/Data/SwipeRight/Test" />
+      <recent name="$PROJECT_DIR$/Data/SwipeLeft/Train" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -199,7 +976,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GestureFileCollection">
+  <component name="RunManager" selected="Python.Cross_validation">
+    <configuration name="Cross_validation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MagicTheGathering" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cross_validation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="DTW" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,13 +1005,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DTW" />
+      <module name="MagicTheGathering" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DTW.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="GestureFileCollection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DTW_KNN_With_Libraries" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -228,7 +1022,24 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DTW" />
+      <module name="MagicTheGathering" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DTW_KNN_With_Libraries.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="GestureFileCollection" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MagicTheGathering" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GestureFileCollection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -268,37 +1079,21 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="grade_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ML4T_2017Fall/assess_portfolio" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DTW" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ML4T_2017Fall/assess_portfolio/grade_analysis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.DTW" />
-      <item index="1" class="java.lang.String" itemvalue="Python.analysis" />
-      <item index="2" class="java.lang.String" itemvalue="Python.grade_analysis" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python.GestureFileCollection" />
+      <item index="1" class="java.lang.String" itemvalue="Python.DTW" />
+      <item index="2" class="java.lang.String" itemvalue="Python.analysis" />
       <item index="3" class="java.lang.String" itemvalue="Python.UnitTests" />
-      <item index="4" class="java.lang.String" itemvalue="Python.GestureFileCollection" />
+      <item index="4" class="java.lang.String" itemvalue="Python.DTW_KNN_With_Libraries" />
+      <item index="5" class="java.lang.String" itemvalue="Python.Cross_validation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.GestureFileCollection" />
-        <item index="1" class="java.lang.String" itemvalue="Python.UnitTests" />
-        <item index="2" class="java.lang.String" itemvalue="Python.DTW" />
-        <item index="3" class="java.lang.String" itemvalue="Python.analysis" />
-        <item index="4" class="java.lang.String" itemvalue="Python.grade_analysis" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Cross_validation" />
+        <item index="1" class="java.lang.String" itemvalue="Python.DTW_KNN_With_Libraries" />
+        <item index="2" class="java.lang.String" itemvalue="Python.UnitTests" />
+        <item index="3" class="java.lang.String" itemvalue="Python.DTW" />
+        <item index="4" class="java.lang.String" itemvalue="Python.analysis" />
       </list>
     </recent_temporary>
   </component>
@@ -319,26 +1114,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22294022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31987077" sideWeight="0.4951857" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26547456" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26272354" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35250738" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4765751" sideWeight="0.5048143" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -372,367 +1167,87 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/swipe_left_gyroP9.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_left_gyroP10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_left_gyroP11.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_accP2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_accP3.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_accP4.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_accP5.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_accP6.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_accP7.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_accP8.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_accP10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_accP9.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_accP11.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP3.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP4.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP5.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP6.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP7.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP8.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP9.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_right_gyroP11.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_accP2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_accP3.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_accP4.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_accP5.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_accP6.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_accP7.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_accP8.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_accP9.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_accP11.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_accP10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP3.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP9.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP8.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP7.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP6.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP5.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP4.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whats_up_gyroP11.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swipe_left_gyroP5.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/whats_up_gyroP8.csv" />
+    <entry file="file://$PROJECT_DIR$/whats_up_gyroP7.csv" />
+    <entry file="file://$PROJECT_DIR$/whats_up_gyroP6.csv" />
+    <entry file="file://$PROJECT_DIR$/whats_up_gyroP5.csv" />
+    <entry file="file://$PROJECT_DIR$/whats_up_gyroP4.csv" />
+    <entry file="file://$PROJECT_DIR$/whats_up_gyroP10.csv" />
+    <entry file="file://$PROJECT_DIR$/whats_up_gyroP11.csv" />
+    <entry file="file://$PROJECT_DIR$/swipe_left_gyroP5.csv" />
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP6.csv">
+    <entry file="file://$PROJECT_DIR$/nod_accP6.csv" />
+    <entry file="file://$PROJECT_DIR$/nod_accP5.csv" />
+    <entry file="file://$PROJECT_DIR$/nod_accP3.csv" />
+    <entry file="file://$PROJECT_DIR$/nod_accP2.csv" />
+    <entry file="file://$PROJECT_DIR$/nod_accP4.csv" />
+    <entry file="file://$PROJECT_DIR$/nod_gyroP8.csv" />
+    <entry file="file://$PROJECT_DIR$/nod_gyroP9.csv" />
+    <entry file="file://$PROJECT_DIR$/swipe_right_gyro_instance_0_P_3.csv" />
+    <entry file="file://$PROJECT_DIR$/FinalUserStudy/P2/DataCollection/logs/log.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalUserStudy/P2/DataCollection/data/merge.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="120">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nod/nod_acc_instance_0_P_3.csv" />
+    <entry file="file://$PROJECT_DIR$/FinalUserStudy/P5/DataCollection/data/2017-05-02T10-30-15.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nod/nod_acc_instance_0_P_2.csv" />
+    <entry file="file://$PROJECT_DIR$/FinalUserStudy/P4/DataCollection/data/2017-05-02T10-16-44.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/qlearning_robot/QLearner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnandsImplementation.java" />
+    <entry file="file://$PROJECT_DIR$/TrainingAndTestingData.py" />
+    <entry file="file://$PROJECT_DIR$/Data/Nod/nod_acc_instance_0_P_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nod_acc.csv" />
+    <entry file="file://$PROJECT_DIR$/swipe_right_acc_1.csv" />
+    <entry file="file://$PROJECT_DIR$/swipe_left_gyro_full.csv" />
+    <entry file="file://$PROJECT_DIR$/Data/Nod/nod_acc_instance_0_P_4.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="61" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipe_right_acc_full" />
+    <entry file="file://$PROJECT_DIR$/nod_acc_full.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -740,7 +1255,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP5.csv">
+    <entry file="file://$PROJECT_DIR$/nod_gyro_full.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -748,23 +1263,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP3.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nod_accP4.csv">
+    <entry file="file://$PROJECT_DIR$/Data/Nod/Template/nod_acc_instance_11_P_4.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -774,8 +1273,128 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GestureFileCollection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="602">
+          <caret line="77" column="34" lean-forward="false" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DTW.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Nod/Train/Template/nod_gyro_instance_11_P_4.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Nod/Accelerometer/nod_acc_instance_0_P_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Nod/Gyro/nod_gyro_instance_0_P_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/SwipeLeft/Gyro/swipe_left_gyro_instance_0_P_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/SwipeRight/Accelerometer/swipe_right_acc_instance_0_P_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/SwipeRight/Gyro/swipe_right_gyro_instance_0_P_3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/WhatsUp/Accelerometer/whats_up_acc_instance_0_P_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/WhatsUp/Gyro/whats_up_gyro_instance_0_P_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Nod/Test/x_test_nod_gyro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/SwipeRight/Train/x_train_swipe_right_gyro">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/WhatsUp/Train/x_train_whats_up_gyro">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/WhatsUp/Test/x_test_whats_up_gyro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DTW_KNN_With_Libraries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="238" column="76" lean-forward="false" selection-start-line="238" selection-start-column="76" selection-end-line="238" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
